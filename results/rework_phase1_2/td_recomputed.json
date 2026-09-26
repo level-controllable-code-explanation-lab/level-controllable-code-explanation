@@ -1,0 +1,419 @@
+{
+  "td_version": "v1.0-unified",
+  "vocab_source": "evaluate_multilevel_v2.py::TECH_TERMS (52 entries, verbatim)",
+  "vocab_size": 52,
+  "single_char_terms": [
+    "栈",
+    "堆",
+    "树",
+    "图"
+  ],
+  "algorithm": "1000 * 最长优先不重叠匹配总次数 / 字符数",
+  "models": {
+    "zero_shot": {
+      "source_file": "results_v3/zero_shot.json",
+      "n_total_rows": 150,
+      "n_per_level": {
+        "beginner": 50,
+        "intermediate": 50,
+        "expert": 50
+      },
+      "n_missing_pred": 0,
+      "td_unified": {
+        "beginner": 1.0643,
+        "intermediate": 0.3377,
+        "expert": 0.7513
+      },
+      "td_unified_sd": {
+        "beginner": 2.9856,
+        "intermediate": 0.6866,
+        "expert": 1.0811
+      },
+      "td_excl_single_char": {
+        "beginner": 0.0,
+        "intermediate": 0.1581,
+        "expert": 0.7513
+      },
+      "mean_output_len_chars": {
+        "beginner": 524.52,
+        "intermediate": 709.88,
+        "expert": 1127.24
+      },
+      "td_archived_field": {
+        "beginner": 0.0,
+        "intermediate": 0.1401,
+        "expert": 0.543
+      },
+      "ref_td_target": {
+        "beginner": 0.1854,
+        "intermediate": 2.8348,
+        "expert": 28.8888
+      },
+      "paper_v5_table2": {
+        "beginner": 0.089,
+        "intermediate": 0.412,
+        "expert": 1.823
+      }
+    },
+    "few_shot": {
+      "source_file": "results_v3/few_shot.json",
+      "n_total_rows": 150,
+      "n_per_level": {
+        "beginner": 50,
+        "intermediate": 50,
+        "expert": 50
+      },
+      "n_missing_pred": 0,
+      "td_unified": {
+        "beginner": 1.5886,
+        "intermediate": 0.1082,
+        "expert": 4.1603
+      },
+      "td_unified_sd": {
+        "beginner": 3.8859,
+        "intermediate": 0.4227,
+        "expert": 7.3248
+      },
+      "td_excl_single_char": {
+        "beginner": 0.08,
+        "intermediate": 0.1082,
+        "expert": 3.8386
+      },
+      "mean_output_len_chars": {
+        "beginner": 488.16,
+        "intermediate": 1083.3,
+        "expert": 973.98
+      },
+      "td_archived_field": {
+        "beginner": null,
+        "intermediate": null,
+        "expert": null
+      },
+      "ref_td_target": {
+        "beginner": null,
+        "intermediate": null,
+        "expert": null
+      },
+      "paper_v5_table2": {
+        "beginner": 0.072,
+        "intermediate": 0.538,
+        "expert": 2.104
+      }
+    },
+    "ctrl_baseline": {
+      "source_file": "results_v3/ctrl_baseline.json",
+      "n_total_rows": 450,
+      "n_per_level": {
+        "beginner": 150,
+        "intermediate": 150,
+        "expert": 150
+      },
+      "n_missing_pred": 0,
+      "td_unified": {
+        "beginner": 1.0248,
+        "intermediate": 1.5627,
+        "expert": 18.9567
+      },
+      "td_unified_sd": {
+        "beginner": 2.1027,
+        "intermediate": 1.7771,
+        "expert": 5.7516
+      },
+      "td_excl_single_char": {
+        "beginner": 0.0512,
+        "intermediate": 1.3295,
+        "expert": 18.5383
+      },
+      "mean_output_len_chars": {
+        "beginner": 768.9,
+        "intermediate": 820.9,
+        "expert": 760.44
+      },
+      "td_archived_field": {
+        "beginner": 1.2077,
+        "intermediate": 2.3652,
+        "expert": 6.6155
+      },
+      "ref_td_target": {
+        "beginner": null,
+        "intermediate": null,
+        "expert": null
+      },
+      "paper_v5_table2": {
+        "beginner": 1.208,
+        "intermediate": 2.365,
+        "expert": 6.615
+      }
+    },
+    "specialist_beginner": {
+      "source_file": "results_v3/specialist_beginner.json",
+      "n_total_rows": 450,
+      "n_per_level": {
+        "beginner": 150,
+        "intermediate": 150,
+        "expert": 150
+      },
+      "n_missing_pred": 0,
+      "td_unified": {
+        "beginner": 1.8535,
+        "intermediate": 0.6636,
+        "expert": 2.6228
+      },
+      "td_unified_sd": {
+        "beginner": 3.3436,
+        "intermediate": 1.2227,
+        "expert": 4.084
+      },
+      "td_excl_single_char": {
+        "beginner": 0.0895,
+        "intermediate": 0.4604,
+        "expert": 2.5936
+      },
+      "mean_output_len_chars": {
+        "beginner": 450.5333,
+        "intermediate": 594.8733,
+        "expert": 1057.3333
+      },
+      "td_archived_field": {
+        "beginner": 0.0895,
+        "intermediate": 0.3422,
+        "expert": 2.309
+      },
+      "ref_td_target": {
+        "beginner": 0.1854,
+        "intermediate": 2.8348,
+        "expert": 28.8888
+      },
+      "paper_v5_table2": {
+        "beginner": 0.761,
+        "intermediate": 0.32,
+        "expert": 0.045
+      }
+    },
+    "specialist_intermediate": {
+      "source_file": "results_v3/specialist_intermediate.json",
+      "n_total_rows": 450,
+      "n_per_level": {
+        "beginner": 150,
+        "intermediate": 150,
+        "expert": 150
+      },
+      "n_missing_pred": 0,
+      "td_unified": {
+        "beginner": 0.9873,
+        "intermediate": 3.0253,
+        "expert": 21.3963
+      },
+      "td_unified_sd": {
+        "beginner": 2.2677,
+        "intermediate": 4.5494,
+        "expert": 7.6054
+      },
+      "td_excl_single_char": {
+        "beginner": 0.2694,
+        "intermediate": 2.8193,
+        "expert": 21.0225
+      },
+      "mean_output_len_chars": {
+        "beginner": 483.5933,
+        "intermediate": 611.8733,
+        "expert": 469.8
+      },
+      "td_archived_field": {
+        "beginner": 0.1927,
+        "intermediate": 2.4903,
+        "expert": 18.0611
+      },
+      "ref_td_target": {
+        "beginner": 0.1854,
+        "intermediate": 2.8348,
+        "expert": 29.1349
+      },
+      "paper_v5_table2": {
+        "beginner": 0.098,
+        "intermediate": 1.523,
+        "expert": 0.142
+      }
+    },
+    "specialist_expert": {
+      "source_file": "results_v3/specialist_expert.json",
+      "n_total_rows": 450,
+      "n_per_level": {
+        "beginner": 150,
+        "intermediate": 150,
+        "expert": 150
+      },
+      "n_missing_pred": 0,
+      "td_unified": {
+        "beginner": 0.8315,
+        "intermediate": 0.0876,
+        "expert": 24.6257
+      },
+      "td_unified_sd": {
+        "beginner": 2.9382,
+        "intermediate": 0.2935,
+        "expert": 7.8919
+      },
+      "td_excl_single_char": {
+        "beginner": 0.1116,
+        "intermediate": 0.0876,
+        "expert": 24.2971
+      },
+      "mean_output_len_chars": {
+        "beginner": 510.2267,
+        "intermediate": 1005.6267,
+        "expert": 455.7267
+      },
+      "td_archived_field": {
+        "beginner": 0.1116,
+        "intermediate": 0.0123,
+        "expert": 19.7619
+      },
+      "ref_td_target": {
+        "beginner": 0.1854,
+        "intermediate": 2.8348,
+        "expert": 29.1349
+      },
+      "paper_v5_table2": {
+        "beginner": 0.012,
+        "intermediate": 0.012,
+        "expert": 24.53
+      }
+    },
+    "multilevel": {
+      "source_file": "results_v3/multilevel.json",
+      "n_total_rows": 450,
+      "n_per_level": {
+        "beginner": 150,
+        "intermediate": 150,
+        "expert": 150
+      },
+      "n_missing_pred": 0,
+      "td_unified": {
+        "beginner": 2.4537,
+        "intermediate": 1.9954,
+        "expert": 30.8905
+      },
+      "td_unified_sd": {
+        "beginner": 3.8975,
+        "intermediate": 1.7648,
+        "expert": 7.2387
+      },
+      "td_excl_single_char": {
+        "beginner": 0.0541,
+        "intermediate": 1.8444,
+        "expert": 30.6552
+      },
+      "mean_output_len_chars": {
+        "beginner": 440.46,
+        "intermediate": 596.18,
+        "expert": 265.34
+      },
+      "td_archived_field": {
+        "beginner": 0.0541,
+        "intermediate": 1.6853,
+        "expert": 23.9799
+      },
+      "ref_td_target": {
+        "beginner": 0.1854,
+        "intermediate": 2.8348,
+        "expert": 29.1349
+      },
+      "paper_v5_table2": {
+        "beginner": 0.054,
+        "intermediate": 1.685,
+        "expert": 23.98
+      }
+    },
+    "multilevel_onestep": {
+      "source_file": "results_v3/multilevel_onestep.json",
+      "n_total_rows": 150,
+      "n_per_level": {
+        "beginner": 50,
+        "intermediate": 50,
+        "expert": 50
+      },
+      "n_missing_pred": 0,
+      "td_unified": {
+        "beginner": 2.5156,
+        "intermediate": 1.6436,
+        "expert": 31.0067
+      },
+      "td_unified_sd": {
+        "beginner": 3.8571,
+        "intermediate": 1.6873,
+        "expert": 7.7453
+      },
+      "td_excl_single_char": {
+        "beginner": 0.0623,
+        "intermediate": 1.5073,
+        "expert": 30.7623
+      },
+      "mean_output_len_chars": {
+        "beginner": 487.62,
+        "intermediate": 830.26,
+        "expert": 267.1
+      },
+      "td_archived_field": {
+        "beginner": 2.5156,
+        "intermediate": 1.6436,
+        "expert": 31.0067
+      },
+      "ref_td_target": {
+        "beginner": null,
+        "intermediate": null,
+        "expert": null
+      },
+      "paper_v5_table3": {
+        "beginner": 0.054,
+        "intermediate": 1.685,
+        "expert": 23.98
+      }
+    },
+    "multilevel_twostep": {
+      "source_file": "results_v3/multilevel_twostep.json",
+      "n_total_rows": 150,
+      "n_per_level": {
+        "beginner": 50,
+        "intermediate": 50,
+        "expert": 50
+      },
+      "n_missing_pred": 0,
+      "td_unified": {
+        "beginner": 4.053,
+        "intermediate": 0.9256,
+        "expert": 20.6028
+      },
+      "td_unified_sd": {
+        "beginner": 7.1563,
+        "intermediate": 1.1785,
+        "expert": 10.8886
+      },
+      "td_excl_single_char": {
+        "beginner": 0.5529,
+        "intermediate": 0.8158,
+        "expert": 20.4811
+      },
+      "mean_output_len_chars": {
+        "beginner": 595.9,
+        "intermediate": 1133.76,
+        "expert": 569.3
+      },
+      "td_archived_field": {
+        "beginner": 4.053,
+        "intermediate": 0.9256,
+        "expert": 20.6028
+      },
+      "ref_td_target": {
+        "beginner": null,
+        "intermediate": null,
+        "expert": null
+      },
+      "paper_v5_table3": {
+        "beginner": 0.711,
+        "intermediate": 0.672,
+        "expert": 18.432
+      }
+    }
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "length_and_counts": {
+    "ctrl_baseline": {
+      "count_mean": {
+        "beginner": 0.04,
+        "intermediate": 1.06,
+        "expert": 13.94
+      },
+      "len_mean": {
+        "beginner": 768.9,
+        "intermediate": 820.9,
+        "expert": 760.4
+      }
+    },
+    "specialist_beginner": {
+      "count_mean": {
+        "beginner": 0.03,
+        "intermediate": 0.27,
+        "expert": 2.12
+      },
+      "len_mean": {
+        "beginner": 450.5,
+        "intermediate": 594.9,
+        "expert": 1057.3
+      }
+    },
+    "specialist_intermediate": {
+      "count_mean": {
+        "beginner": 0.13,
+        "intermediate": 1.53,
+        "expert": 9.71
+      },
+      "len_mean": {
+        "beginner": 483.6,
+        "intermediate": 611.9,
+        "expert": 469.8
+      }
+    },
+    "specialist_expert": {
+      "count_mean": {
+        "beginner": 0.05,
+        "intermediate": 0.09,
+        "expert": 10.93
+      },
+      "len_mean": {
+        "beginner": 510.2,
+        "intermediate": 1005.6,
+        "expert": 455.7
+      }
+    },
+    "multilevel": {
+      "count_mean": {
+        "beginner": 0.02,
+        "intermediate": 1.07,
+        "expert": 7.99
+      },
+      "len_mean": {
+        "beginner": 440.5,
+        "intermediate": 596.2,
+        "expert": 265.3
+      }
+    },
+    "multilevel_onestep": {
+      "count_mean": {
+        "beginner": 0.02,
+        "intermediate": 1.14,
+        "expert": 8.02
+      },
+      "len_mean": {
+        "beginner": 487.6,
+        "intermediate": 830.3,
+        "expert": 267.1
+      }
+    },
+    "multilevel_twostep": {
+      "count_mean": {
+        "beginner": 0.36,
+        "intermediate": 0.86,
+        "expert": 10.08
+      },
+      "len_mean": {
+        "beginner": 595.9,
+        "intermediate": 1133.8,
+        "expert": 569.3
+      }
+    },
+    "zero_shot": {
+      "count_mean": {
+        "beginner": 0,
+        "intermediate": 0.1,
+        "expert": 0.84
+      },
+      "len_mean": {
+        "beginner": 524.5,
+        "intermediate": 709.9,
+        "expert": 1127.2
+      }
+    },
+    "few_shot": {
+      "count_mean": {
+        "beginner": 0.04,
+        "intermediate": 0.12,
+        "expert": 2.48
+      },
+      "len_mean": {
+        "beginner": 488.2,
+        "intermediate": 1083.3,
+        "expert": 974.0
+      }
+    }
+  },
+  "target_ref_td": {
+    "beginner": 0.185,
+    "intermediate": 2.835,
+    "expert": 29.135
+  },
+  "td_unified": {
+    "multilevel": {
+      "beginner": 0.054,
+      "intermediate": 1.844,
+      "expert": 30.655
+    },
+    "ctrl_baseline": {
+      "beginner": 0.051,
+      "intermediate": 1.329,
+      "expert": 18.457
+    },
+    "specialist_intermediate": {
+      "beginner": 0.269,
+      "intermediate": 2.819,
+      "expert": 20.963
+    },
+    "specialist_expert": {
+      "beginner": 0.112,
+      "intermediate": 0.088,
+      "expert": 24.297
+    },
+    "specialist_beginner": {
+      "beginner": 0.089,
+      "intermediate": 0.46,
+      "expert": 2.587
+    },
+    "zero_shot": {
+      "beginner": 0.0,
+      "intermediate": 0.158,
+      "expert": 0.734
+    },
+    "few_shot": {
+      "beginner": 0.08,
+      "intermediate": 0.108,
+      "expert": 3.839
+    }
+  },
+  "blind_eval": {
+    "clarity 清晰度": {
+      "wins": 58,
+      "losses": 27,
+      "ties": 5,
+      "n_effective": 85,
+      "win_rate_pct": 68.2,
+      "z": 3.254,
+      "p_one_sided": 0.00057,
+      "p_two_sided": 0.00114,
+      "sig_two_sided": true
+    },
+    "level-alignment 层级对齐": {
+      "wins": 54,
+      "losses": 35,
+      "ties": 1,
+      "n_effective": 89,
+      "win_rate_pct": 60.7,
+      "z": 1.908,
+      "p_one_sided": 0.0282,
+      "p_two_sided": 0.05639,
+      "sig_two_sided": false
+    },
+    "accuracy 事实准确性": {
+      "wins": 33,
+      "losses": 34,
+      "ties": 23,
+      "n_effective": 67,
+      "win_rate_pct": 49.3,
+      "z": 0.0,
+      "p_one_sided": 0.5,
+      "p_two_sided": 1.0,
+      "sig_two_sided": false
+    }
+  }
+}

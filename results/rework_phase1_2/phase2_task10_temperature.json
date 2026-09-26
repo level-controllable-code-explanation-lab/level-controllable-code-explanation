@@ -1,0 +1,62 @@
+{
+  "0": {
+    "beginner": {
+      "n": 50,
+      "mean_td": 0.063,
+      "std_td": 0.44,
+      "mean_len": 450.1
+    },
+    "intermediate": {
+      "n": 50,
+      "mean_td": 1.549,
+      "std_td": 1.399,
+      "mean_len": 591.3
+    },
+    "expert": {
+      "n": 50,
+      "mean_td": 31.985,
+      "std_td": 6.808,
+      "mean_len": 258.1
+    }
+  },
+  "0.3": {
+    "beginner": {
+      "n": 50,
+      "mean_td": 0.144,
+      "std_td": 0.762,
+      "mean_len": 439.8
+    },
+    "intermediate": {
+      "n": 50,
+      "mean_td": 1.532,
+      "std_td": 1.641,
+      "mean_len": 592.3
+    },
+    "expert": {
+      "n": 50,
+      "mean_td": 31.247,
+      "std_td": 6.236,
+      "mean_len": 265.5
+    }
+  },
+  "0.7": {
+    "beginner": {
+      "n": 50,
+      "mean_td": 0.189,
+      "std_td": 0.642,
+      "mean_len": 425.6
+    },
+    "intermediate": {
+      "n": 50,
+      "mean_td": 1.541,
+      "std_td": 1.632,
+      "mean_len": 590.5
+    },
+    "expert": {
+      "n": 50,
+      "mean_td": 30.817,
+      "std_td": 8.229,
+      "mean_len": 286.6
+    }
+  }
+}

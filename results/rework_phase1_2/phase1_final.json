@@ -1,0 +1,541 @@
+{
+  "metric": {
+    "version": "v1.0-unified",
+    "vocab_size": 47,
+    "vocab_source": "evaluate_multilevel_v2.py::TECH_TERMS (52 entries, verbatim)",
+    "excluded": [
+      "栈",
+      "堆",
+      "树",
+      "图",
+      "O(n"
+    ],
+    "excluded_reason": "单字条目在复合词内误命中；'O(n' 为残缺前缀",
+    "formula": "TD = 1000 * 最长优先不重叠匹配总次数 / 字符数",
+    "no_segmenter": true
+  },
+  "models": {
+    "zero_shot": {
+      "source_file": "results_v3/zero_shot.json",
+      "n_per_level": {
+        "beginner": 50,
+        "intermediate": 50,
+        "expert": 50
+      },
+      "td_mean": {
+        "beginner": 0.0,
+        "intermediate": 0.1581,
+        "expert": 0.7343
+      },
+      "td_sd": {
+        "beginner": 0.0,
+        "intermediate": 0.4873,
+        "expert": 1.086
+      },
+      "output_len_mean": {
+        "beginner": 524.5,
+        "intermediate": 709.9,
+        "expert": 1127.2
+      },
+      "monotonic": true,
+      "ref_td_target": {
+        "beginner": 0.1854,
+        "intermediate": 2.8348,
+        "expert": 28.8888
+      }
+    },
+    "few_shot": {
+      "source_file": "results_v3/few_shot.json",
+      "n_per_level": {
+        "beginner": 50,
+        "intermediate": 50,
+        "expert": 50
+      },
+      "td_mean": {
+        "beginner": 0.08,
+        "intermediate": 0.1082,
+        "expert": 3.8386
+      },
+      "td_sd": {
+        "beginner": 0.3923,
+        "intermediate": 0.4227,
+        "expert": 6.2115
+      },
+      "output_len_mean": {
+        "beginner": 488.2,
+        "intermediate": 1083.3,
+        "expert": 974.0
+      },
+      "monotonic": true
+    },
+    "ctrl_baseline": {
+      "source_file": "results_v3/ctrl_baseline.json",
+      "n_per_level": {
+        "beginner": 150,
+        "intermediate": 150,
+        "expert": 150
+      },
+      "td_mean": {
+        "beginner": 0.0512,
+        "intermediate": 1.3295,
+        "expert": 18.4572
+      },
+      "td_sd": {
+        "beginner": 0.2508,
+        "intermediate": 1.7002,
+        "expert": 4.8907
+      },
+      "output_len_mean": {
+        "beginner": 768.9,
+        "intermediate": 820.9,
+        "expert": 760.4
+      },
+      "monotonic": true
+    },
+    "specialist_beginner": {
+      "source_file": "results_v3/specialist_beginner.json",
+      "n_per_level": {
+        "beginner": 150,
+        "intermediate": 150,
+        "expert": 150
+      },
+      "td_mean": {
+        "beginner": 0.0895,
+        "intermediate": 0.4604,
+        "expert": 2.5873
+      },
+      "td_sd": {
+        "beginner": 0.4878,
+        "intermediate": 0.9221,
+        "expert": 4.0115
+      },
+      "output_len_mean": {
+        "beginner": 450.5,
+        "intermediate": 594.9,
+        "expert": 1057.3
+      },
+      "monotonic": true,
+      "ref_td_target": {
+        "beginner": 0.1854,
+        "intermediate": 2.8348,
+        "expert": 28.8888
+      }
+    },
+    "specialist_intermediate": {
+      "source_file": "results_v3/specialist_intermediate.json",
+      "n_per_level": {
+        "beginner": 150,
+        "intermediate": 150,
+        "expert": 150
+      },
+      "td_mean": {
+        "beginner": 0.2694,
+        "intermediate": 2.8193,
+        "expert": 20.9633
+      },
+      "td_sd": {
+        "beginner": 0.8797,
+        "intermediate": 4.2442,
+        "expert": 7.0278
+      },
+      "output_len_mean": {
+        "beginner": 483.6,
+        "intermediate": 611.9,
+        "expert": 469.8
+      },
+      "monotonic": true,
+      "ref_td_target": {
+        "beginner": 0.1854,
+        "intermediate": 2.8348,
+        "expert": 29.1349
+      }
+    },
+    "specialist_expert": {
+      "source_file": "results_v3/specialist_expert.json",
+      "n_per_level": {
+        "beginner": 150,
+        "intermediate": 150,
+        "expert": 150
+      },
+      "td_mean": {
+        "beginner": 0.1116,
+        "intermediate": 0.0876,
+        "expert": 24.2971
+      },
+      "td_sd": {
+        "beginner": 0.5295,
+        "intermediate": 0.2935,
+        "expert": 7.3619
+      },
+      "output_len_mean": {
+        "beginner": 510.2,
+        "intermediate": 1005.6,
+        "expert": 455.7
+      },
+      "monotonic": false,
+      "ref_td_target": {
+        "beginner": 0.1854,
+        "intermediate": 2.8348,
+        "expert": 29.1349
+      }
+    },
+    "multilevel": {
+      "source_file": "results_v3/multilevel.json",
+      "n_per_level": {
+        "beginner": 150,
+        "intermediate": 150,
+        "expert": 150
+      },
+      "td_mean": {
+        "beginner": 0.0541,
+        "intermediate": 1.8444,
+        "expert": 30.6552
+      },
+      "td_sd": {
+        "beginner": 0.3814,
+        "intermediate": 1.4822,
+        "expert": 6.5884
+      },
+      "output_len_mean": {
+        "beginner": 440.5,
+        "intermediate": 596.2,
+        "expert": 265.3
+      },
+      "monotonic": true,
+      "ref_td_target": {
+        "beginner": 0.1854,
+        "intermediate": 2.8348,
+        "expert": 29.1349
+      }
+    },
+    "multilevel_onestep": {
+      "source_file": "results_v3/multilevel_onestep.json",
+      "n_per_level": {
+        "beginner": 50,
+        "intermediate": 50,
+        "expert": 50
+      },
+      "td_mean": {
+        "beginner": 0.0623,
+        "intermediate": 1.5073,
+        "expert": 30.7623
+      },
+      "td_sd": {
+        "beginner": 0.4361,
+        "intermediate": 1.4929,
+        "expert": 7.1322
+      },
+      "output_len_mean": {
+        "beginner": 487.6,
+        "intermediate": 830.3,
+        "expert": 267.1
+      },
+      "monotonic": true
+    },
+    "multilevel_twostep": {
+      "source_file": "results_v3/multilevel_twostep.json",
+      "n_per_level": {
+        "beginner": 50,
+        "intermediate": 50,
+        "expert": 50
+      },
+      "td_mean": {
+        "beginner": 0.5529,
+        "intermediate": 0.8158,
+        "expert": 20.4565
+      },
+      "td_sd": {
+        "beginner": 0.9437,
+        "intermediate": 1.0008,
+        "expert": 10.8995
+      },
+      "output_len_mean": {
+        "beginner": 595.9,
+        "intermediate": 1133.8,
+        "expert": 569.3
+      },
+      "monotonic": true
+    }
+  },
+  "stats": {
+    "zero_shot": {
+      "kruskal_H": 34.682,
+      "df": 2,
+      "p": "2.94e-08",
+      "pairwise": {
+        "beginner_vs_intermediate": {
+          "U": 1125.0,
+          "z": -2.282,
+          "p_raw": "2.25e-02",
+          "p_bonferroni": "6.75e-02",
+          "effect_r": 0.228,
+          "significant": false
+        },
+        "beginner_vs_expert": {
+          "U": 700.0,
+          "z": -5.231,
+          "p_raw": "1.69e-07",
+          "p_bonferroni": "5.07e-07",
+          "effect_r": 0.523,
+          "significant": true
+        },
+        "intermediate_vs_expert": {
+          "U": 836.0,
+          "z": -3.651,
+          "p_raw": "2.61e-04",
+          "p_bonferroni": "7.83e-04",
+          "effect_r": 0.365,
+          "significant": true
+        }
+      }
+    },
+    "few_shot": {
+      "kruskal_H": 73.387,
+      "df": 2,
+      "p": "1.16e-16",
+      "pairwise": {
+        "beginner_vs_intermediate": {
+          "U": 1202.0,
+          "z": -0.804,
+          "p_raw": "4.21e-01",
+          "p_bonferroni": "1.00e+00",
+          "effect_r": 0.08,
+          "significant": false
+        },
+        "beginner_vs_expert": {
+          "U": 389.0,
+          "z": -6.751,
+          "p_raw": "1.47e-11",
+          "p_bonferroni": "4.41e-11",
+          "effect_r": 0.675,
+          "significant": true
+        },
+        "intermediate_vs_expert": {
+          "U": 397.0,
+          "z": -6.597,
+          "p_raw": "4.21e-11",
+          "p_bonferroni": "1.26e-10",
+          "effect_r": 0.66,
+          "significant": true
+        }
+      }
+    },
+    "ctrl_baseline": {
+      "kruskal_H": 363.93,
+      "df": 2,
+      "p": "9.41e-80",
+      "pairwise": {
+        "beginner_vs_intermediate": {
+          "U": 5508.0,
+          "z": -9.539,
+          "p_raw": "1.45e-21",
+          "p_bonferroni": "4.34e-21",
+          "effect_r": 0.551,
+          "significant": true
+        },
+        "beginner_vs_expert": {
+          "U": 0.0,
+          "z": -15.879,
+          "p_raw": "8.82e-57",
+          "p_bonferroni": "2.65e-56",
+          "effect_r": 0.917,
+          "significant": true
+        },
+        "intermediate_vs_expert": {
+          "U": 0.0,
+          "z": -15.068,
+          "p_raw": "2.65e-51",
+          "p_bonferroni": "7.94e-51",
+          "effect_r": 0.87,
+          "significant": true
+        }
+      }
+    },
+    "specialist_beginner": {
+      "kruskal_H": 209.057,
+      "df": 2,
+      "p": "4.02e-46",
+      "pairwise": {
+        "beginner_vs_intermediate": {
+          "U": 9192.5,
+          "z": -4.74,
+          "p_raw": "2.14e-06",
+          "p_bonferroni": "6.42e-06",
+          "effect_r": 0.274,
+          "significant": true
+        },
+        "beginner_vs_expert": {
+          "U": 2307.5,
+          "z": -13.11,
+          "p_raw": "2.88e-39",
+          "p_bonferroni": "8.63e-39",
+          "effect_r": 0.757,
+          "significant": true
+        },
+        "intermediate_vs_expert": {
+          "U": 4345.5,
+          "z": -9.697,
+          "p_raw": "3.11e-22",
+          "p_bonferroni": "9.34e-22",
+          "effect_r": 0.56,
+          "significant": true
+        }
+      }
+    },
+    "specialist_intermediate": {
+      "kruskal_H": 348.515,
+      "df": 2,
+      "p": "2.09e-76",
+      "pairwise": {
+        "beginner_vs_intermediate": {
+          "U": 4367.5,
+          "z": -10.277,
+          "p_raw": "8.91e-25",
+          "p_bonferroni": "2.67e-24",
+          "effect_r": 0.593,
+          "significant": true
+        },
+        "beginner_vs_expert": {
+          "U": 0.0,
+          "z": -15.725,
+          "p_raw": "1.01e-55",
+          "p_bonferroni": "3.03e-55",
+          "effect_r": 0.908,
+          "significant": true
+        },
+        "intermediate_vs_expert": {
+          "U": 450.0,
+          "z": -14.394,
+          "p_raw": "5.60e-47",
+          "p_bonferroni": "1.68e-46",
+          "effect_r": 0.831,
+          "significant": true
+        }
+      }
+    },
+    "specialist_expert": {
+      "kruskal_H": 394.498,
+      "df": 2,
+      "p": "2.17e-86",
+      "pairwise": {
+        "beginner_vs_intermediate": {
+          "U": 10845.5,
+          "z": -1.245,
+          "p_raw": "2.13e-01",
+          "p_bonferroni": "6.39e-01",
+          "effect_r": 0.072,
+          "significant": false
+        },
+        "beginner_vs_expert": {
+          "U": 0.0,
+          "z": -15.858,
+          "p_raw": "1.23e-56",
+          "p_bonferroni": "3.69e-56",
+          "effect_r": 0.916,
+          "significant": true
+        },
+        "intermediate_vs_expert": {
+          "U": 0.0,
+          "z": -15.743,
+          "p_raw": "7.61e-56",
+          "p_bonferroni": "2.28e-55",
+          "effect_r": 0.909,
+          "significant": true
+        }
+      }
+    },
+    "multilevel": {
+      "kruskal_H": 382.096,
+      "df": 2,
+      "p": "1.07e-83",
+      "pairwise": {
+        "beginner_vs_intermediate": {
+          "U": 2562.0,
+          "z": -12.974,
+          "p_raw": "1.73e-38",
+          "p_bonferroni": "5.19e-38",
+          "effect_r": 0.749,
+          "significant": true
+        },
+        "beginner_vs_expert": {
+          "U": 0.0,
+          "z": -15.942,
+          "p_raw": "3.22e-57",
+          "p_bonferroni": "9.67e-57",
+          "effect_r": 0.92,
+          "significant": true
+        },
+        "intermediate_vs_expert": {
+          "U": 0.0,
+          "z": -14.983,
+          "p_raw": "9.52e-51",
+          "p_bonferroni": "2.86e-50",
+          "effect_r": 0.865,
+          "significant": true
+        }
+      }
+    },
+    "multilevel_onestep": {
+      "kruskal_H": 124.967,
+      "df": 2,
+      "p": "7.31e-28",
+      "pairwise": {
+        "beginner_vs_intermediate": {
+          "U": 359.5,
+          "z": -7.034,
+          "p_raw": "2.01e-12",
+          "p_bonferroni": "6.02e-12",
+          "effect_r": 0.703,
+          "significant": true
+        },
+        "beginner_vs_expert": {
+          "U": 0.0,
+          "z": -9.174,
+          "p_raw": "4.57e-20",
+          "p_bonferroni": "1.37e-19",
+          "effect_r": 0.917,
+          "significant": true
+        },
+        "intermediate_vs_expert": {
+          "U": 0.0,
+          "z": -8.627,
+          "p_raw": "6.30e-18",
+          "p_bonferroni": "1.89e-17",
+          "effect_r": 0.863,
+          "significant": true
+        }
+      }
+    },
+    "multilevel_twostep": {
+      "kruskal_H": 107.639,
+      "df": 2,
+      "p": "4.23e-24",
+      "pairwise": {
+        "beginner_vs_intermediate": {
+          "U": 1026.0,
+          "z": -1.756,
+          "p_raw": "7.90e-02",
+          "p_bonferroni": "2.37e-01",
+          "effect_r": 0.176,
+          "significant": false
+        },
+        "beginner_vs_expert": {
+          "U": 0.0,
+          "z": -8.826,
+          "p_raw": "1.09e-18",
+          "p_bonferroni": "3.27e-18",
+          "effect_r": 0.883,
+          "significant": true
+        },
+        "intermediate_vs_expert": {
+          "U": 0.0,
+          "z": -8.685,
+          "p_raw": "3.78e-18",
+          "p_bonferroni": "1.13e-17",
+          "effect_r": 0.869,
+          "significant": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,91 @@
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  74%|███████▍  | 148/199 [00:00<00:00, 1467.59it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 1361.56it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: bert-base-chinese
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+ctrl_baseline beginner mean= 0.675 std= 0.0233
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  68%|██████▊   | 135/199 [00:00<00:00, 1264.91it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 1301.34it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: bert-base-chinese
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+ctrl_baseline intermediate mean= 0.7194 std= 0.0215
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 2461.44it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: bert-base-chinese
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+ctrl_baseline expert mean= 0.6634 std= 0.0119
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  77%|███████▋  | 153/199 [00:00<00:00, 1472.94it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 1340.59it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: bert-base-chinese
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+multilevel_twostep beginner mean= 0.7016 std= 0.0228
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  80%|████████  | 160/199 [00:00<00:00, 1593.24it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 1680.52it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: bert-base-chinese
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+multilevel_twostep intermediate mean= 0.7407 std= 0.0226
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 2281.52it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: bert-base-chinese
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+multilevel_twostep expert mean= 0.7111 std= 0.0291
+ALL DONE
