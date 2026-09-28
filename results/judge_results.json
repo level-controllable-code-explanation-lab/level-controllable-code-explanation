@@ -1,0 +1,3782 @@
+[
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def load_entrypoint_plugins(entry_points, airflow_plugins):\n    \"\"\"\n    Load AirflowPlugin subclasse",
+    "level": "beginner",
+    "A": "zero_shot",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 3
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 4,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def load_entrypoint_plugins(entry_points, airflow_plugins):\n    \"\"\"\n    Load AirflowPlugin subclasse",
+    "level": "beginner",
+    "A": "multilevel",
+    "B": "specialist",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 3,
+        "B": 4
+      },
+      "alignment": {
+        "A": 2,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def load_entrypoint_plugins(entry_points, airflow_plugins):\n    \"\"\"\n    Load AirflowPlugin subclasse",
+    "level": "intermediate",
+    "A": "zero_shot",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 3
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 4,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def load_entrypoint_plugins(entry_points, airflow_plugins):\n    \"\"\"\n    Load AirflowPlugin subclasse",
+    "level": "intermediate",
+    "A": "specialist",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 4,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def load_entrypoint_plugins(entry_points, airflow_plugins):\n    \"\"\"\n    Load AirflowPlugin subclasse",
+    "level": "expert",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 1,
+        "B": 5
+      },
+      "clarity": {
+        "A": 3,
+        "B": 5
+      },
+      "alignment": {
+        "A": 1,
+        "B": 5
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def load_entrypoint_plugins(entry_points, airflow_plugins):\n    \"\"\"\n    Load AirflowPlugin subclasse",
+    "level": "expert",
+    "A": "multilevel",
+    "B": "specialist",
+    "scores": {
+      "accuracy": {
+        "A": 1,
+        "B": 4
+      },
+      "clarity": {
+        "A": 2,
+        "B": 4
+      },
+      "alignment": {
+        "A": 1,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def _parse_s3_config(config_file_name, config_format='boto', profile=None):\n    \"\"\"\n    Parses a con",
+    "level": "beginner",
+    "A": "zero_shot",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 5
+      },
+      "alignment": {
+        "A": 3,
+        "B": 5
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def _parse_s3_config(config_file_name, config_format='boto', profile=None):\n    \"\"\"\n    Parses a con",
+    "level": "beginner",
+    "A": "multilevel",
+    "B": "specialist",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 3
+      },
+      "clarity": {
+        "A": 5,
+        "B": 4
+      },
+      "alignment": {
+        "A": 5,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def _parse_s3_config(config_file_name, config_format='boto', profile=None):\n    \"\"\"\n    Parses a con",
+    "level": "intermediate",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 5
+      },
+      "clarity": {
+        "A": 3,
+        "B": 4
+      },
+      "alignment": {
+        "A": 3,
+        "B": 5
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def _parse_s3_config(config_file_name, config_format='boto', profile=None):\n    \"\"\"\n    Parses a con",
+    "level": "intermediate",
+    "A": "multilevel",
+    "B": "specialist",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 4
+      },
+      "alignment": {
+        "A": 4,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def _parse_s3_config(config_file_name, config_format='boto', profile=None):\n    \"\"\"\n    Parses a con",
+    "level": "expert",
+    "A": "zero_shot",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 3
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 4,
+        "B": 2
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def _parse_s3_config(config_file_name, config_format='boto', profile=None):\n    \"\"\"\n    Parses a con",
+    "level": "expert",
+    "A": "specialist",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 5
+      },
+      "alignment": {
+        "A": 3,
+        "B": 5
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def _create_dagruns(dag, execution_dates, state, run_id_template):\n    \"\"\"\n    Infers from the dates",
+    "level": "beginner",
+    "A": "zero_shot",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 3
+      },
+      "clarity": {
+        "A": 4,
+        "B": 4
+      },
+      "alignment": {
+        "A": 3,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def _create_dagruns(dag, execution_dates, state, run_id_template):\n    \"\"\"\n    Infers from the dates",
+    "level": "beginner",
+    "A": "specialist",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 4,
+        "B": 2
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def _create_dagruns(dag, execution_dates, state, run_id_template):\n    \"\"\"\n    Infers from the dates",
+    "level": "intermediate",
+    "A": "zero_shot",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 4
+      },
+      "clarity": {
+        "A": 5,
+        "B": 3
+      },
+      "alignment": {
+        "A": 5,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def _create_dagruns(dag, execution_dates, state, run_id_template):\n    \"\"\"\n    Infers from the dates",
+    "level": "intermediate",
+    "A": "specialist",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 5
+      },
+      "clarity": {
+        "A": 4,
+        "B": 5
+      },
+      "alignment": {
+        "A": 4,
+        "B": 5
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def _create_dagruns(dag, execution_dates, state, run_id_template):\n    \"\"\"\n    Infers from the dates",
+    "level": "expert",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 4,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def _create_dagruns(dag, execution_dates, state, run_id_template):\n    \"\"\"\n    Infers from the dates",
+    "level": "expert",
+    "A": "specialist",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 3
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 4,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def delete_dag(dag_id):\n    \"\"\"\n    Delete all DB records related to the specified Dag.\n    \"\"\"\n    ",
+    "level": "beginner",
+    "A": "zero_shot",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 2
+      },
+      "clarity": {
+        "A": 3,
+        "B": 4
+      },
+      "alignment": {
+        "A": 3,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def delete_dag(dag_id):\n    \"\"\"\n    Delete all DB records related to the specified Dag.\n    \"\"\"\n    ",
+    "level": "beginner",
+    "A": "specialist",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 3
+      },
+      "clarity": {
+        "A": 4,
+        "B": 4
+      },
+      "alignment": {
+        "A": 3,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def delete_dag(dag_id):\n    \"\"\"\n    Delete all DB records related to the specified Dag.\n    \"\"\"\n    ",
+    "level": "intermediate",
+    "A": "zero_shot",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 5
+      },
+      "clarity": {
+        "A": 2,
+        "B": 4
+      },
+      "alignment": {
+        "A": 2,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def delete_dag(dag_id):\n    \"\"\"\n    Delete all DB records related to the specified Dag.\n    \"\"\"\n    ",
+    "level": "intermediate",
+    "A": "specialist",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 5
+      },
+      "clarity": {
+        "A": 2,
+        "B": 4
+      },
+      "alignment": {
+        "A": 2,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def delete_dag(dag_id):\n    \"\"\"\n    Delete all DB records related to the specified Dag.\n    \"\"\"\n    ",
+    "level": "expert",
+    "A": "zero_shot",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 3,
+        "B": 5
+      },
+      "alignment": {
+        "A": 2,
+        "B": 5
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def delete_dag(dag_id):\n    \"\"\"\n    Delete all DB records related to the specified Dag.\n    \"\"\"\n    ",
+    "level": "expert",
+    "A": "multilevel",
+    "B": "specialist",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 4
+      },
+      "alignment": {
+        "A": 3,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def dag_run_status(dag_id, execution_date):\n    \"\"\"\n    Returns a JSON with a dag_run's public insta",
+    "level": "beginner",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 4,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def dag_run_status(dag_id, execution_date):\n    \"\"\"\n    Returns a JSON with a dag_run's public insta",
+    "level": "beginner",
+    "A": "multilevel",
+    "B": "specialist",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 3
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 4,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def dag_run_status(dag_id, execution_date):\n    \"\"\"\n    Returns a JSON with a dag_run's public insta",
+    "level": "intermediate",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 5
+      },
+      "alignment": {
+        "A": 4,
+        "B": 5
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def dag_run_status(dag_id, execution_date):\n    \"\"\"\n    Returns a JSON with a dag_run's public insta",
+    "level": "intermediate",
+    "A": "multilevel",
+    "B": "specialist",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 3
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 5,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def dag_run_status(dag_id, execution_date):\n    \"\"\"\n    Returns a JSON with a dag_run's public insta",
+    "level": "expert",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 3,
+        "B": 2
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def dag_run_status(dag_id, execution_date):\n    \"\"\"\n    Returns a JSON with a dag_run's public insta",
+    "level": "expert",
+    "A": "multilevel",
+    "B": "specialist",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 3
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 4,
+        "B": 2
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def current_state(self, session=None):\n        \"\"\"\n        Get the very latest state from the databa",
+    "level": "beginner",
+    "A": "zero_shot",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 3
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 3,
+        "B": 2
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def current_state(self, session=None):\n        \"\"\"\n        Get the very latest state from the databa",
+    "level": "beginner",
+    "A": "multilevel",
+    "B": "specialist",
+    "scores": {
+      "accuracy": {
+        "A": 2,
+        "B": 3
+      },
+      "clarity": {
+        "A": 3,
+        "B": 4
+      },
+      "alignment": {
+        "A": 2,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def current_state(self, session=None):\n        \"\"\"\n        Get the very latest state from the databa",
+    "level": "intermediate",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 3
+      },
+      "clarity": {
+        "A": 3,
+        "B": 4
+      },
+      "alignment": {
+        "A": 3,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def current_state(self, session=None):\n        \"\"\"\n        Get the very latest state from the databa",
+    "level": "intermediate",
+    "A": "multilevel",
+    "B": "specialist",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 3,
+        "B": 4
+      },
+      "alignment": {
+        "A": 3,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def current_state(self, session=None):\n        \"\"\"\n        Get the very latest state from the databa",
+    "level": "expert",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 3
+      },
+      "clarity": {
+        "A": 5,
+        "B": 4
+      },
+      "alignment": {
+        "A": 5,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def current_state(self, session=None):\n        \"\"\"\n        Get the very latest state from the databa",
+    "level": "expert",
+    "A": "specialist",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 3,
+        "B": 4
+      },
+      "alignment": {
+        "A": 2,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def _wait_for_operation_to_complete(self, operation_name):\n        \"\"\"\n        Waits for the named o",
+    "level": "beginner",
+    "A": "zero_shot",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 3,
+        "B": 5
+      },
+      "alignment": {
+        "A": 3,
+        "B": 5
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def _wait_for_operation_to_complete(self, operation_name):\n        \"\"\"\n        Waits for the named o",
+    "level": "beginner",
+    "A": "specialist",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 4,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def _wait_for_operation_to_complete(self, operation_name):\n        \"\"\"\n        Waits for the named o",
+    "level": "intermediate",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 3
+      },
+      "clarity": {
+        "A": 5,
+        "B": 3
+      },
+      "alignment": {
+        "A": 5,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def _wait_for_operation_to_complete(self, operation_name):\n        \"\"\"\n        Waits for the named o",
+    "level": "intermediate",
+    "A": "specialist",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 5
+      },
+      "clarity": {
+        "A": 5,
+        "B": 4
+      },
+      "alignment": {
+        "A": 5,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def _wait_for_operation_to_complete(self, operation_name):\n        \"\"\"\n        Waits for the named o",
+    "level": "expert",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 4
+      },
+      "clarity": {
+        "A": 5,
+        "B": 4
+      },
+      "alignment": {
+        "A": 5,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def _wait_for_operation_to_complete(self, operation_name):\n        \"\"\"\n        Waits for the named o",
+    "level": "expert",
+    "A": "multilevel",
+    "B": "specialist",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 3
+      },
+      "clarity": {
+        "A": 5,
+        "B": 4
+      },
+      "alignment": {
+        "A": 5,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def _parse_gcs_url(gsurl):\n    \"\"\"\n    Given a Google Cloud Storage URL (gs://<bucket>/<blob>), retu",
+    "level": "beginner",
+    "A": "zero_shot",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 3
+      },
+      "clarity": {
+        "A": 4,
+        "B": 5
+      },
+      "alignment": {
+        "A": 5,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def _parse_gcs_url(gsurl):\n    \"\"\"\n    Given a Google Cloud Storage URL (gs://<bucket>/<blob>), retu",
+    "level": "beginner",
+    "A": "specialist",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 3
+      },
+      "clarity": {
+        "A": 4,
+        "B": 4
+      },
+      "alignment": {
+        "A": 4,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def _parse_gcs_url(gsurl):\n    \"\"\"\n    Given a Google Cloud Storage URL (gs://<bucket>/<blob>), retu",
+    "level": "intermediate",
+    "A": "zero_shot",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 5
+      },
+      "clarity": {
+        "A": 3,
+        "B": 5
+      },
+      "alignment": {
+        "A": 2,
+        "B": 5
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def _parse_gcs_url(gsurl):\n    \"\"\"\n    Given a Google Cloud Storage URL (gs://<bucket>/<blob>), retu",
+    "level": "intermediate",
+    "A": "specialist",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 5
+      },
+      "clarity": {
+        "A": 3,
+        "B": 5
+      },
+      "alignment": {
+        "A": 3,
+        "B": 5
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def _parse_gcs_url(gsurl):\n    \"\"\"\n    Given a Google Cloud Storage URL (gs://<bucket>/<blob>), retu",
+    "level": "expert",
+    "A": "zero_shot",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 5
+      },
+      "alignment": {
+        "A": 2,
+        "B": 5
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def _parse_gcs_url(gsurl):\n    \"\"\"\n    Given a Google Cloud Storage URL (gs://<bucket>/<blob>), retu",
+    "level": "expert",
+    "A": "specialist",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 5
+      },
+      "clarity": {
+        "A": 3,
+        "B": 5
+      },
+      "alignment": {
+        "A": 2,
+        "B": 5
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def get_start_time(self, file_path):\n        \"\"\"\n        :param file_path: the path to the file that",
+    "level": "beginner",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 4
+      },
+      "alignment": {
+        "A": 3,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def get_start_time(self, file_path):\n        \"\"\"\n        :param file_path: the path to the file that",
+    "level": "beginner",
+    "A": "multilevel",
+    "B": "specialist",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 4,
+        "B": 5
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def get_start_time(self, file_path):\n        \"\"\"\n        :param file_path: the path to the file that",
+    "level": "intermediate",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 5,
+        "B": 4
+      },
+      "clarity": {
+        "A": 5,
+        "B": 4
+      },
+      "alignment": {
+        "A": 5,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def get_start_time(self, file_path):\n        \"\"\"\n        :param file_path: the path to the file that",
+    "level": "intermediate",
+    "A": "multilevel",
+    "B": "specialist",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 3
+      },
+      "clarity": {
+        "A": 5,
+        "B": 3
+      },
+      "alignment": {
+        "A": 5,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def get_start_time(self, file_path):\n        \"\"\"\n        :param file_path: the path to the file that",
+    "level": "expert",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 3
+      },
+      "clarity": {
+        "A": 5,
+        "B": 4
+      },
+      "alignment": {
+        "A": 5,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def get_start_time(self, file_path):\n        \"\"\"\n        :param file_path: the path to the file that",
+    "level": "expert",
+    "A": "specialist",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 5
+      },
+      "alignment": {
+        "A": 3,
+        "B": 5
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def _get_pretty_exception_message(e):\n        \"\"\"\n        Parses some DatabaseError to provide a bet",
+    "level": "beginner",
+    "A": "zero_shot",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 3
+      },
+      "clarity": {
+        "A": 4,
+        "B": 4
+      },
+      "alignment": {
+        "A": 3,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def _get_pretty_exception_message(e):\n        \"\"\"\n        Parses some DatabaseError to provide a bet",
+    "level": "beginner",
+    "A": "multilevel",
+    "B": "specialist",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 3
+      },
+      "clarity": {
+        "A": 4,
+        "B": 4
+      },
+      "alignment": {
+        "A": 3,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def _get_pretty_exception_message(e):\n        \"\"\"\n        Parses some DatabaseError to provide a bet",
+    "level": "intermediate",
+    "A": "zero_shot",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 4,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def _get_pretty_exception_message(e):\n        \"\"\"\n        Parses some DatabaseError to provide a bet",
+    "level": "intermediate",
+    "A": "multilevel",
+    "B": "specialist",
+    "scores": {
+      "accuracy": {
+        "A": 5,
+        "B": 5
+      },
+      "clarity": {
+        "A": 5,
+        "B": 3
+      },
+      "alignment": {
+        "A": 5,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def _get_pretty_exception_message(e):\n        \"\"\"\n        Parses some DatabaseError to provide a bet",
+    "level": "expert",
+    "A": "zero_shot",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 5
+      },
+      "alignment": {
+        "A": 3,
+        "B": 5
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def _get_pretty_exception_message(e):\n        \"\"\"\n        Parses some DatabaseError to provide a bet",
+    "level": "expert",
+    "A": "multilevel",
+    "B": "specialist",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 3
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 3,
+        "B": 2
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def get_uri(self):\n        \"\"\"\n        override DbApiHook get_uri method for get_sqlalchemy_engine()",
+    "level": "beginner",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 3,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def get_uri(self):\n        \"\"\"\n        override DbApiHook get_uri method for get_sqlalchemy_engine()",
+    "level": "beginner",
+    "A": "multilevel",
+    "B": "specialist",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 5
+      },
+      "clarity": {
+        "A": 4,
+        "B": 5
+      },
+      "alignment": {
+        "A": 3,
+        "B": 5
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def get_uri(self):\n        \"\"\"\n        override DbApiHook get_uri method for get_sqlalchemy_engine()",
+    "level": "intermediate",
+    "A": "zero_shot",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 3,
+        "B": 5
+      },
+      "alignment": {
+        "A": 3,
+        "B": 5
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def get_uri(self):\n        \"\"\"\n        override DbApiHook get_uri method for get_sqlalchemy_engine()",
+    "level": "intermediate",
+    "A": "multilevel",
+    "B": "specialist",
+    "scores": {
+      "accuracy": {
+        "A": 5,
+        "B": 5
+      },
+      "clarity": {
+        "A": 5,
+        "B": 3
+      },
+      "alignment": {
+        "A": 5,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def get_uri(self):\n        \"\"\"\n        override DbApiHook get_uri method for get_sqlalchemy_engine()",
+    "level": "expert",
+    "A": "zero_shot",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 3,
+        "B": 5
+      },
+      "alignment": {
+        "A": 2,
+        "B": 5
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def get_uri(self):\n        \"\"\"\n        override DbApiHook get_uri method for get_sqlalchemy_engine()",
+    "level": "expert",
+    "A": "specialist",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 3,
+        "B": 5
+      },
+      "alignment": {
+        "A": 2,
+        "B": 5
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def get_dag_run_state(dag_id, execution_date):\n    \"\"\"Return the task object identified by the given",
+    "level": "beginner",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 3
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 5,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def get_dag_run_state(dag_id, execution_date):\n    \"\"\"Return the task object identified by the given",
+    "level": "beginner",
+    "A": "multilevel",
+    "B": "specialist",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 4,
+        "B": 2
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def get_dag_run_state(dag_id, execution_date):\n    \"\"\"Return the task object identified by the given",
+    "level": "intermediate",
+    "A": "zero_shot",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 5,
+        "B": 5
+      },
+      "clarity": {
+        "A": 5,
+        "B": 3
+      },
+      "alignment": {
+        "A": 5,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def get_dag_run_state(dag_id, execution_date):\n    \"\"\"Return the task object identified by the given",
+    "level": "intermediate",
+    "A": "specialist",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 4,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def get_dag_run_state(dag_id, execution_date):\n    \"\"\"Return the task object identified by the given",
+    "level": "expert",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 3
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 5,
+        "B": 2
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def get_dag_run_state(dag_id, execution_date):\n    \"\"\"Return the task object identified by the given",
+    "level": "expert",
+    "A": "multilevel",
+    "B": "specialist",
+    "scores": {
+      "accuracy": {
+        "A": 5,
+        "B": 5
+      },
+      "clarity": {
+        "A": 5,
+        "B": 4
+      },
+      "alignment": {
+        "A": 5,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def _find_zombies(self, session):\n        \"\"\"\n        Find zombie task instances, which are tasks ha",
+    "level": "beginner",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 5
+      },
+      "alignment": {
+        "A": 4,
+        "B": 5
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def _find_zombies(self, session):\n        \"\"\"\n        Find zombie task instances, which are tasks ha",
+    "level": "beginner",
+    "A": "specialist",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 3
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 5,
+        "B": 2
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def _find_zombies(self, session):\n        \"\"\"\n        Find zombie task instances, which are tasks ha",
+    "level": "intermediate",
+    "A": "zero_shot",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 3,
+        "B": 4
+      },
+      "alignment": {
+        "A": 3,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def _find_zombies(self, session):\n        \"\"\"\n        Find zombie task instances, which are tasks ha",
+    "level": "intermediate",
+    "A": "multilevel",
+    "B": "specialist",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 5,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def _find_zombies(self, session):\n        \"\"\"\n        Find zombie task instances, which are tasks ha",
+    "level": "expert",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 5
+      },
+      "clarity": {
+        "A": 3,
+        "B": 5
+      },
+      "alignment": {
+        "A": 2,
+        "B": 5
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def _find_zombies(self, session):\n        \"\"\"\n        Find zombie task instances, which are tasks ha",
+    "level": "expert",
+    "A": "multilevel",
+    "B": "specialist",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 5
+      },
+      "clarity": {
+        "A": 3,
+        "B": 5
+      },
+      "alignment": {
+        "A": 2,
+        "B": 5
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def ungzip(data):\n    \"\"\"Decompresses data for Content-Encoding: gzip.\n    \"\"\"\n    from io import By",
+    "level": "beginner",
+    "A": "zero_shot",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 2,
+        "B": 4
+      },
+      "clarity": {
+        "A": 3,
+        "B": 5
+      },
+      "alignment": {
+        "A": 2,
+        "B": 5
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def ungzip(data):\n    \"\"\"Decompresses data for Content-Encoding: gzip.\n    \"\"\"\n    from io import By",
+    "level": "beginner",
+    "A": "specialist",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 3
+      },
+      "clarity": {
+        "A": 4,
+        "B": 5
+      },
+      "alignment": {
+        "A": 5,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def ungzip(data):\n    \"\"\"Decompresses data for Content-Encoding: gzip.\n    \"\"\"\n    from io import By",
+    "level": "intermediate",
+    "A": "zero_shot",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 2,
+        "B": 5
+      },
+      "clarity": {
+        "A": 3,
+        "B": 5
+      },
+      "alignment": {
+        "A": 2,
+        "B": 5
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def ungzip(data):\n    \"\"\"Decompresses data for Content-Encoding: gzip.\n    \"\"\"\n    from io import By",
+    "level": "intermediate",
+    "A": "specialist",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 2,
+        "B": 5
+      },
+      "clarity": {
+        "A": 3,
+        "B": 5
+      },
+      "alignment": {
+        "A": 2,
+        "B": 5
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def ungzip(data):\n    \"\"\"Decompresses data for Content-Encoding: gzip.\n    \"\"\"\n    from io import By",
+    "level": "expert",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 3,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def ungzip(data):\n    \"\"\"Decompresses data for Content-Encoding: gzip.\n    \"\"\"\n    from io import By",
+    "level": "expert",
+    "A": "specialist",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 3
+      },
+      "clarity": {
+        "A": 4,
+        "B": 4
+      },
+      "alignment": {
+        "A": 3,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def wasb_read(self, remote_log_location, return_error=False):\n        \"\"\"\n        Returns the log fo",
+    "level": "beginner",
+    "A": "zero_shot",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 3
+      },
+      "clarity": {
+        "A": 5,
+        "B": 4
+      },
+      "alignment": {
+        "A": 5,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def wasb_read(self, remote_log_location, return_error=False):\n        \"\"\"\n        Returns the log fo",
+    "level": "beginner",
+    "A": "specialist",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 3
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 4,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def wasb_read(self, remote_log_location, return_error=False):\n        \"\"\"\n        Returns the log fo",
+    "level": "intermediate",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 3
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 5,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def wasb_read(self, remote_log_location, return_error=False):\n        \"\"\"\n        Returns the log fo",
+    "level": "intermediate",
+    "A": "specialist",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 3
+      },
+      "clarity": {
+        "A": 5,
+        "B": 3
+      },
+      "alignment": {
+        "A": 5,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def wasb_read(self, remote_log_location, return_error=False):\n        \"\"\"\n        Returns the log fo",
+    "level": "expert",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 4,
+        "B": 2
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def wasb_read(self, remote_log_location, return_error=False):\n        \"\"\"\n        Returns the log fo",
+    "level": "expert",
+    "A": "multilevel",
+    "B": "specialist",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 3
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 3,
+        "B": 2
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def check_for_file(self, file_path):\n        \"\"\"\n        Check if a file exists on Azure Data Lake.\n",
+    "level": "beginner",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 3
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 4,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def check_for_file(self, file_path):\n        \"\"\"\n        Check if a file exists on Azure Data Lake.\n",
+    "level": "beginner",
+    "A": "specialist",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 2
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 4,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def check_for_file(self, file_path):\n        \"\"\"\n        Check if a file exists on Azure Data Lake.\n",
+    "level": "intermediate",
+    "A": "zero_shot",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 4,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def check_for_file(self, file_path):\n        \"\"\"\n        Check if a file exists on Azure Data Lake.\n",
+    "level": "intermediate",
+    "A": "multilevel",
+    "B": "specialist",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 2
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 4,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def check_for_file(self, file_path):\n        \"\"\"\n        Check if a file exists on Azure Data Lake.\n",
+    "level": "expert",
+    "A": "zero_shot",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 3,
+        "B": 5
+      },
+      "alignment": {
+        "A": 2,
+        "B": 5
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def check_for_file(self, file_path):\n        \"\"\"\n        Check if a file exists on Azure Data Lake.\n",
+    "level": "expert",
+    "A": "multilevel",
+    "B": "specialist",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 2
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 4,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def poke(self, context):\n        \"\"\"\n        Check for message on subscribed channels and write to x",
+    "level": "beginner",
+    "A": "zero_shot",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 3
+      },
+      "clarity": {
+        "A": 4,
+        "B": 4
+      },
+      "alignment": {
+        "A": 4,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def poke(self, context):\n        \"\"\"\n        Check for message on subscribed channels and write to x",
+    "level": "beginner",
+    "A": "specialist",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 4
+      },
+      "alignment": {
+        "A": 3,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def poke(self, context):\n        \"\"\"\n        Check for message on subscribed channels and write to x",
+    "level": "intermediate",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 3
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 4,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def poke(self, context):\n        \"\"\"\n        Check for message on subscribed channels and write to x",
+    "level": "intermediate",
+    "A": "specialist",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 2,
+        "B": 5
+      },
+      "clarity": {
+        "A": 3,
+        "B": 5
+      },
+      "alignment": {
+        "A": 2,
+        "B": 5
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def poke(self, context):\n        \"\"\"\n        Check for message on subscribed channels and write to x",
+    "level": "expert",
+    "A": "zero_shot",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 2
+      },
+      "clarity": {
+        "A": 3,
+        "B": 4
+      },
+      "alignment": {
+        "A": 2,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def poke(self, context):\n        \"\"\"\n        Check for message on subscribed channels and write to x",
+    "level": "expert",
+    "A": "multilevel",
+    "B": "specialist",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 4
+      },
+      "alignment": {
+        "A": 3,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def get_object_from_salesforce(self, obj, fields):\n        \"\"\"\n        Get all instances of the `obj",
+    "level": "beginner",
+    "A": "zero_shot",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 3
+      },
+      "clarity": {
+        "A": 5,
+        "B": 4
+      },
+      "alignment": {
+        "A": 5,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def get_object_from_salesforce(self, obj, fields):\n        \"\"\"\n        Get all instances of the `obj",
+    "level": "beginner",
+    "A": "specialist",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 3
+      },
+      "clarity": {
+        "A": 5,
+        "B": 4
+      },
+      "alignment": {
+        "A": 5,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def get_object_from_salesforce(self, obj, fields):\n        \"\"\"\n        Get all instances of the `obj",
+    "level": "intermediate",
+    "A": "zero_shot",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 3
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 4,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def get_object_from_salesforce(self, obj, fields):\n        \"\"\"\n        Get all instances of the `obj",
+    "level": "intermediate",
+    "A": "specialist",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 3
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 4,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def get_object_from_salesforce(self, obj, fields):\n        \"\"\"\n        Get all instances of the `obj",
+    "level": "expert",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 5,
+        "B": 3
+      },
+      "alignment": {
+        "A": 5,
+        "B": 2
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def get_object_from_salesforce(self, obj, fields):\n        \"\"\"\n        Get all instances of the `obj",
+    "level": "expert",
+    "A": "multilevel",
+    "B": "specialist",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 3
+      },
+      "clarity": {
+        "A": 5,
+        "B": 4
+      },
+      "alignment": {
+        "A": 5,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def get_task_instance(dag_id, task_id, execution_date):\n    \"\"\"Return the task object identified by ",
+    "level": "beginner",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 5
+      },
+      "alignment": {
+        "A": 4,
+        "B": 5
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def get_task_instance(dag_id, task_id, execution_date):\n    \"\"\"Return the task object identified by ",
+    "level": "beginner",
+    "A": "specialist",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 4
+      },
+      "alignment": {
+        "A": 3,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def get_task_instance(dag_id, task_id, execution_date):\n    \"\"\"Return the task object identified by ",
+    "level": "intermediate",
+    "A": "zero_shot",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 5,
+        "B": 5
+      },
+      "clarity": {
+        "A": 5,
+        "B": 4
+      },
+      "alignment": {
+        "A": 5,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def get_task_instance(dag_id, task_id, execution_date):\n    \"\"\"Return the task object identified by ",
+    "level": "intermediate",
+    "A": "specialist",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 5
+      },
+      "clarity": {
+        "A": 4,
+        "B": 5
+      },
+      "alignment": {
+        "A": 4,
+        "B": 5
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def get_task_instance(dag_id, task_id, execution_date):\n    \"\"\"Return the task object identified by ",
+    "level": "expert",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 3,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def get_task_instance(dag_id, task_id, execution_date):\n    \"\"\"Return the task object identified by ",
+    "level": "expert",
+    "A": "multilevel",
+    "B": "specialist",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 2,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def set_dag_run_state_to_running(dag, execution_date, commit=False, session=None):\n    \"\"\"\n    Set t",
+    "level": "beginner",
+    "A": "zero_shot",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 3
+      },
+      "clarity": {
+        "A": 3,
+        "B": 4
+      },
+      "alignment": {
+        "A": 3,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def set_dag_run_state_to_running(dag, execution_date, commit=False, session=None):\n    \"\"\"\n    Set t",
+    "level": "beginner",
+    "A": "specialist",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 2
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 4,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def set_dag_run_state_to_running(dag, execution_date, commit=False, session=None):\n    \"\"\"\n    Set t",
+    "level": "intermediate",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 3
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 4,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def set_dag_run_state_to_running(dag, execution_date, commit=False, session=None):\n    \"\"\"\n    Set t",
+    "level": "intermediate",
+    "A": "multilevel",
+    "B": "specialist",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 3
+      },
+      "clarity": {
+        "A": 5,
+        "B": 3
+      },
+      "alignment": {
+        "A": 5,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def set_dag_run_state_to_running(dag, execution_date, commit=False, session=None):\n    \"\"\"\n    Set t",
+    "level": "expert",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 4,
+        "B": 2
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def set_dag_run_state_to_running(dag, execution_date, commit=False, session=None):\n    \"\"\"\n    Set t",
+    "level": "expert",
+    "A": "specialist",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 2,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def parameterized_config(template):\n    \"\"\"\n    Generates a configuration from the provided template",
+    "level": "beginner",
+    "A": "zero_shot",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 5
+      },
+      "alignment": {
+        "A": 3,
+        "B": 5
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def parameterized_config(template):\n    \"\"\"\n    Generates a configuration from the provided template",
+    "level": "beginner",
+    "A": "multilevel",
+    "B": "specialist",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 3
+      },
+      "clarity": {
+        "A": 4,
+        "B": 4
+      },
+      "alignment": {
+        "A": 4,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def parameterized_config(template):\n    \"\"\"\n    Generates a configuration from the provided template",
+    "level": "intermediate",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 5,
+        "B": 3
+      },
+      "clarity": {
+        "A": 5,
+        "B": 3
+      },
+      "alignment": {
+        "A": 5,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def parameterized_config(template):\n    \"\"\"\n    Generates a configuration from the provided template",
+    "level": "intermediate",
+    "A": "specialist",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 5
+      },
+      "clarity": {
+        "A": 3,
+        "B": 5
+      },
+      "alignment": {
+        "A": 3,
+        "B": 5
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def parameterized_config(template):\n    \"\"\"\n    Generates a configuration from the provided template",
+    "level": "expert",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 2,
+        "B": 4
+      },
+      "clarity": {
+        "A": 3,
+        "B": 4
+      },
+      "alignment": {
+        "A": 1,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def parameterized_config(template):\n    \"\"\"\n    Generates a configuration from the provided template",
+    "level": "expert",
+    "A": "specialist",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 1
+      },
+      "clarity": {
+        "A": 4,
+        "B": 2
+      },
+      "alignment": {
+        "A": 4,
+        "B": 1
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def get_attachments_by_name(self, name, check_regex, find_first=False):\n        \"\"\"\n        Gets all",
+    "level": "beginner",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 4
+      },
+      "alignment": {
+        "A": 5,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def get_attachments_by_name(self, name, check_regex, find_first=False):\n        \"\"\"\n        Gets all",
+    "level": "beginner",
+    "A": "multilevel",
+    "B": "specialist",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 5,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def get_attachments_by_name(self, name, check_regex, find_first=False):\n        \"\"\"\n        Gets all",
+    "level": "intermediate",
+    "A": "zero_shot",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 3,
+        "B": 4
+      },
+      "alignment": {
+        "A": 3,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def get_attachments_by_name(self, name, check_regex, find_first=False):\n        \"\"\"\n        Gets all",
+    "level": "intermediate",
+    "A": "specialist",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 4,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def get_attachments_by_name(self, name, check_regex, find_first=False):\n        \"\"\"\n        Gets all",
+    "level": "expert",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 3
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 4,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def get_attachments_by_name(self, name, check_regex, find_first=False):\n        \"\"\"\n        Gets all",
+    "level": "expert",
+    "A": "multilevel",
+    "B": "specialist",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 3
+      },
+      "clarity": {
+        "A": 4,
+        "B": 4
+      },
+      "alignment": {
+        "A": 4,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def expand_env_var(env_var):\n    \"\"\"\n    Expands (potentially nested) env vars by repeatedly applyin",
+    "level": "beginner",
+    "A": "zero_shot",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 5
+      },
+      "alignment": {
+        "A": 4,
+        "B": 5
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def expand_env_var(env_var):\n    \"\"\"\n    Expands (potentially nested) env vars by repeatedly applyin",
+    "level": "beginner",
+    "A": "specialist",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 3,
+        "B": 4
+      },
+      "alignment": {
+        "A": 3,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def expand_env_var(env_var):\n    \"\"\"\n    Expands (potentially nested) env vars by repeatedly applyin",
+    "level": "intermediate",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 5,
+        "B": 4
+      },
+      "clarity": {
+        "A": 5,
+        "B": 3
+      },
+      "alignment": {
+        "A": 5,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def expand_env_var(env_var):\n    \"\"\"\n    Expands (potentially nested) env vars by repeatedly applyin",
+    "level": "intermediate",
+    "A": "specialist",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 5
+      },
+      "clarity": {
+        "A": 3,
+        "B": 5
+      },
+      "alignment": {
+        "A": 3,
+        "B": 5
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def expand_env_var(env_var):\n    \"\"\"\n    Expands (potentially nested) env vars by repeatedly applyin",
+    "level": "expert",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 2,
+        "B": 4
+      },
+      "clarity": {
+        "A": 3,
+        "B": 4
+      },
+      "alignment": {
+        "A": 3,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def expand_env_var(env_var):\n    \"\"\"\n    Expands (potentially nested) env vars by repeatedly applyin",
+    "level": "expert",
+    "A": "multilevel",
+    "B": "specialist",
+    "scores": {
+      "accuracy": {
+        "A": 2,
+        "B": 4
+      },
+      "clarity": {
+        "A": 3,
+        "B": 4
+      },
+      "alignment": {
+        "A": 2,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def get_dagrun(self, session):\n        \"\"\"\n        Returns the DagRun for this TaskInstance\n\n       ",
+    "level": "beginner",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 5
+      },
+      "alignment": {
+        "A": 3,
+        "B": 5
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def get_dagrun(self, session):\n        \"\"\"\n        Returns the DagRun for this TaskInstance\n\n       ",
+    "level": "beginner",
+    "A": "specialist",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 3
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 5,
+        "B": 2
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def get_dagrun(self, session):\n        \"\"\"\n        Returns the DagRun for this TaskInstance\n\n       ",
+    "level": "intermediate",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 4,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def get_dagrun(self, session):\n        \"\"\"\n        Returns the DagRun for this TaskInstance\n\n       ",
+    "level": "intermediate",
+    "A": "multilevel",
+    "B": "specialist",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 3
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 4,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def get_dagrun(self, session):\n        \"\"\"\n        Returns the DagRun for this TaskInstance\n\n       ",
+    "level": "expert",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 4,
+        "B": 2
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def get_dagrun(self, session):\n        \"\"\"\n        Returns the DagRun for this TaskInstance\n\n       ",
+    "level": "expert",
+    "A": "specialist",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 5
+      },
+      "alignment": {
+        "A": 2,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def get_documents(self, sql_string, database_name=None, collection_name=None, partition_key=None):\n ",
+    "level": "beginner",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 2,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def get_documents(self, sql_string, database_name=None, collection_name=None, partition_key=None):\n ",
+    "level": "beginner",
+    "A": "specialist",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 3
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 4,
+        "B": 2
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def get_documents(self, sql_string, database_name=None, collection_name=None, partition_key=None):\n ",
+    "level": "intermediate",
+    "A": "zero_shot",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 4,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def get_documents(self, sql_string, database_name=None, collection_name=None, partition_key=None):\n ",
+    "level": "intermediate",
+    "A": "multilevel",
+    "B": "specialist",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 4,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def get_documents(self, sql_string, database_name=None, collection_name=None, partition_key=None):\n ",
+    "level": "expert",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 1,
+        "B": 3
+      },
+      "clarity": {
+        "A": 3,
+        "B": 4
+      },
+      "alignment": {
+        "A": 1,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def get_documents(self, sql_string, database_name=None, collection_name=None, partition_key=None):\n ",
+    "level": "expert",
+    "A": "specialist",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 1
+      },
+      "clarity": {
+        "A": 5,
+        "B": 2
+      },
+      "alignment": {
+        "A": 5,
+        "B": 1
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def max_partition(\n        table, schema=\"default\", field=None, filter_map=None,\n        metastore_c",
+    "level": "beginner",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 3,
+        "B": 2
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def max_partition(\n        table, schema=\"default\", field=None, filter_map=None,\n        metastore_c",
+    "level": "beginner",
+    "A": "multilevel",
+    "B": "specialist",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 4,
+        "B": 2
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def max_partition(\n        table, schema=\"default\", field=None, filter_map=None,\n        metastore_c",
+    "level": "intermediate",
+    "A": "zero_shot",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 3
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 4,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def max_partition(\n        table, schema=\"default\", field=None, filter_map=None,\n        metastore_c",
+    "level": "intermediate",
+    "A": "specialist",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 4,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def max_partition(\n        table, schema=\"default\", field=None, filter_map=None,\n        metastore_c",
+    "level": "expert",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 2
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 4,
+        "B": 2
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def max_partition(\n        table, schema=\"default\", field=None, filter_map=None,\n        metastore_c",
+    "level": "expert",
+    "A": "specialist",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 3
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 3,
+        "B": 2
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def wasb_log_exists(self, remote_log_location):\n        \"\"\"\n        Check if remote_log_location exi",
+    "level": "beginner",
+    "A": "zero_shot",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 5,
+        "B": 3
+      },
+      "clarity": {
+        "A": 5,
+        "B": 3
+      },
+      "alignment": {
+        "A": 5,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def wasb_log_exists(self, remote_log_location):\n        \"\"\"\n        Check if remote_log_location exi",
+    "level": "beginner",
+    "A": "multilevel",
+    "B": "specialist",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 4
+      },
+      "alignment": {
+        "A": 3,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def wasb_log_exists(self, remote_log_location):\n        \"\"\"\n        Check if remote_log_location exi",
+    "level": "intermediate",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 3
+      },
+      "clarity": {
+        "A": 5,
+        "B": 3
+      },
+      "alignment": {
+        "A": 5,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def wasb_log_exists(self, remote_log_location):\n        \"\"\"\n        Check if remote_log_location exi",
+    "level": "intermediate",
+    "A": "multilevel",
+    "B": "specialist",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 5,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def wasb_log_exists(self, remote_log_location):\n        \"\"\"\n        Check if remote_log_location exi",
+    "level": "expert",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 3
+      },
+      "clarity": {
+        "A": 5,
+        "B": 4
+      },
+      "alignment": {
+        "A": 5,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def wasb_log_exists(self, remote_log_location):\n        \"\"\"\n        Check if remote_log_location exi",
+    "level": "expert",
+    "A": "multilevel",
+    "B": "specialist",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 3
+      },
+      "clarity": {
+        "A": 5,
+        "B": 4
+      },
+      "alignment": {
+        "A": 5,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def get_proxy_version(self):\n        \"\"\"\n        Returns version of the Cloud SQL Proxy.\n        \"\"\"",
+    "level": "beginner",
+    "A": "zero_shot",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 3
+      },
+      "clarity": {
+        "A": 3,
+        "B": 4
+      },
+      "alignment": {
+        "A": 2,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def get_proxy_version(self):\n        \"\"\"\n        Returns version of the Cloud SQL Proxy.\n        \"\"\"",
+    "level": "beginner",
+    "A": "specialist",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 3
+      },
+      "clarity": {
+        "A": 4,
+        "B": 4
+      },
+      "alignment": {
+        "A": 3,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def get_proxy_version(self):\n        \"\"\"\n        Returns version of the Cloud SQL Proxy.\n        \"\"\"",
+    "level": "intermediate",
+    "A": "zero_shot",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 5
+      },
+      "clarity": {
+        "A": 4,
+        "B": 5
+      },
+      "alignment": {
+        "A": 4,
+        "B": 5
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def get_proxy_version(self):\n        \"\"\"\n        Returns version of the Cloud SQL Proxy.\n        \"\"\"",
+    "level": "intermediate",
+    "A": "multilevel",
+    "B": "specialist",
+    "scores": {
+      "accuracy": {
+        "A": 5,
+        "B": 3
+      },
+      "clarity": {
+        "A": 5,
+        "B": 3
+      },
+      "alignment": {
+        "A": 5,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def get_proxy_version(self):\n        \"\"\"\n        Returns version of the Cloud SQL Proxy.\n        \"\"\"",
+    "level": "expert",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 1,
+        "B": 3
+      },
+      "clarity": {
+        "A": 3,
+        "B": 4
+      },
+      "alignment": {
+        "A": 1,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def get_proxy_version(self):\n        \"\"\"\n        Returns version of the Cloud SQL Proxy.\n        \"\"\"",
+    "level": "expert",
+    "A": "multilevel",
+    "B": "specialist",
+    "scores": {
+      "accuracy": {
+        "A": 1,
+        "B": 1
+      },
+      "clarity": {
+        "A": 3,
+        "B": 3
+      },
+      "alignment": {
+        "A": 1,
+        "B": 1
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def delete_operation(self, name):\n        \"\"\"\n        Deletes the long-running operation.\n\n        .",
+    "level": "beginner",
+    "A": "zero_shot",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 5
+      },
+      "alignment": {
+        "A": 3,
+        "B": 5
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def delete_operation(self, name):\n        \"\"\"\n        Deletes the long-running operation.\n\n        .",
+    "level": "beginner",
+    "A": "multilevel",
+    "B": "specialist",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 3
+      },
+      "clarity": {
+        "A": 5,
+        "B": 4
+      },
+      "alignment": {
+        "A": 5,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def delete_operation(self, name):\n        \"\"\"\n        Deletes the long-running operation.\n\n        .",
+    "level": "intermediate",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 4
+      },
+      "clarity": {
+        "A": 5,
+        "B": 3
+      },
+      "alignment": {
+        "A": 5,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def delete_operation(self, name):\n        \"\"\"\n        Deletes the long-running operation.\n\n        .",
+    "level": "intermediate",
+    "A": "multilevel",
+    "B": "specialist",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 3
+      },
+      "clarity": {
+        "A": 5,
+        "B": 3
+      },
+      "alignment": {
+        "A": 5,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def delete_operation(self, name):\n        \"\"\"\n        Deletes the long-running operation.\n\n        .",
+    "level": "expert",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 4
+      },
+      "clarity": {
+        "A": 5,
+        "B": 4
+      },
+      "alignment": {
+        "A": 5,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def delete_operation(self, name):\n        \"\"\"\n        Deletes the long-running operation.\n\n        .",
+    "level": "expert",
+    "A": "multilevel",
+    "B": "specialist",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 3
+      },
+      "clarity": {
+        "A": 5,
+        "B": 4
+      },
+      "alignment": {
+        "A": 5,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def parse_gcs_url(gsurl):\n        \"\"\"\n        Given a Google Cloud Storage URL (gs://<bucket>/<blob>",
+    "level": "beginner",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 3,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def parse_gcs_url(gsurl):\n        \"\"\"\n        Given a Google Cloud Storage URL (gs://<bucket>/<blob>",
+    "level": "beginner",
+    "A": "specialist",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 3
+      },
+      "clarity": {
+        "A": 4,
+        "B": 4
+      },
+      "alignment": {
+        "A": 4,
+        "B": 3
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def parse_gcs_url(gsurl):\n        \"\"\"\n        Given a Google Cloud Storage URL (gs://<bucket>/<blob>",
+    "level": "intermediate",
+    "A": "multilevel",
+    "B": "zero_shot",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 4
+      },
+      "clarity": {
+        "A": 4,
+        "B": 3
+      },
+      "alignment": {
+        "A": 5,
+        "B": 4
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def parse_gcs_url(gsurl):\n        \"\"\"\n        Given a Google Cloud Storage URL (gs://<bucket>/<blob>",
+    "level": "intermediate",
+    "A": "specialist",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 4
+      },
+      "clarity": {
+        "A": 3,
+        "B": 5
+      },
+      "alignment": {
+        "A": 3,
+        "B": 5
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_zero_shot",
+    "code": "def parse_gcs_url(gsurl):\n        \"\"\"\n        Given a Google Cloud Storage URL (gs://<bucket>/<blob>",
+    "level": "expert",
+    "A": "zero_shot",
+    "B": "multilevel",
+    "scores": {
+      "accuracy": {
+        "A": 3,
+        "B": 5
+      },
+      "clarity": {
+        "A": 3,
+        "B": 5
+      },
+      "alignment": {
+        "A": 2,
+        "B": 5
+      }
+    }
+  },
+  {
+    "comparison": "multilevel_vs_specialist",
+    "code": "def parse_gcs_url(gsurl):\n        \"\"\"\n        Given a Google Cloud Storage URL (gs://<bucket>/<blob>",
+    "level": "expert",
+    "A": "multilevel",
+    "B": "specialist",
+    "scores": {
+      "accuracy": {
+        "A": 4,
+        "B": 5
+      },
+      "clarity": {
+        "A": 4,
+        "B": 5
+      },
+      "alignment": {
+        "A": 4,
+        "B": 5
+      }
+    }
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "note": "Mann-Whitney U / Kruskal-Wallis recomputed on ctrl_baseline TD values after removing the 3x export duplication documented in README.md (results_v3/ctrl_baseline.json contains 150 rows per level = 50 unique code samples exported 3 times each; this file uses the deduplicated 50-per-level set so that U-test independence assumptions hold). TD values here are the OLD-vocabulary td field from results_v3/ctrl_baseline.json (see README note on td field versioning); this file only corrects the sample-independence issue in the significance test, it does not change which TD numbers are reported in the paper.",
+  "source_file": "results/results_v3/ctrl_baseline.json",
+  "dedup_method": "grouped by 'code' field per level, kept first occurrence, verified all 3 duplicates per code had identical td/pred values before dropping",
+  "n_per_level": 50,
+  "kruskal_wallis": {
+    "H": 101.001,
+    "df": 2,
+    "p": 1.1693294166593986e-22
+  },
+  "pairwise_mannwhitney": {
+    "beginner_vs_intermediate": {
+      "U": 667.5, "z": -4.016, "p_raw": 5.673e-05, "p_bonferroni": 1.702e-04,
+      "effect_r": 0.402, "n1": 50, "n2": 50, "significant": true
+    },
+    "beginner_vs_expert": {
+      "U": 2.0, "z": -8.603, "p_raw": 7.190e-18, "p_bonferroni": 2.157e-17,
+      "effect_r": 0.86, "n1": 50, "n2": 50, "significant": true
+    },
+    "intermediate_vs_expert": {
+      "U": 85.0, "z": -8.031, "p_raw": 9.880e-16, "p_bonferroni": 2.964e-15,
+      "effect_r": 0.803, "n1": 50, "n2": 50, "significant": true
+    }
+  },
+  "original_non_independent_result_for_reference": {
+    "source": "results/rework_phase1_2/phase1_final.json .stats.ctrl_baseline",
+    "n_per_level_used": 150,
+    "beginner_vs_intermediate_U": 5508.0,
+    "issue": "U computed on 150 rows/level (50 unique x 3 duplicated exports), exceeding the n=50 independent-sample theoretical max of 2500; p-values and effect sizes from this run should not be used for significance claims"
+  },
+  "conclusion": "Direction and significance of all three pairwise comparisons are unchanged after deduplication (all remain significant after Bonferroni correction). The layer-wise TD separation reported in the paper is robust to this correction."
+}

@@ -1,0 +1,134 @@
+{
+  "zero_shot": {
+    "beginner": {
+      "mean": 0.6895,
+      "std": 0.0274,
+      "n": 50
+    },
+    "intermediate": {
+      "mean": 0.7128,
+      "std": 0.0564,
+      "n": 50
+    },
+    "expert": {
+      "mean": 0.5422,
+      "std": 0.0083,
+      "n": 50
+    },
+    "overall": {
+      "mean": 0.6482,
+      "std": 0.084,
+      "n": 150
+    }
+  },
+  "few_shot": {
+    "beginner": {
+      "mean": 0.7024,
+      "std": 0.0277,
+      "n": 50
+    },
+    "intermediate": {
+      "mean": 0.6254,
+      "std": 0.0283,
+      "n": 50
+    },
+    "expert": {
+      "mean": 0.572,
+      "std": 0.0515,
+      "n": 50
+    },
+    "overall": {
+      "mean": 0.6333,
+      "std": 0.0654,
+      "n": 150
+    }
+  },
+  "multilevel": {
+    "beginner": {
+      "mean": 0.7302,
+      "std": 0.025,
+      "n": 150
+    },
+    "intermediate": {
+      "mean": 0.7917,
+      "std": 0.0313,
+      "n": 150
+    },
+    "expert": {
+      "mean": 0.8042,
+      "std": 0.0235,
+      "n": 150
+    },
+    "overall": {
+      "mean": 0.7754,
+      "std": 0.042,
+      "n": 450
+    }
+  },
+  "specialist_beginner": {
+    "beginner": {
+      "mean": 0.7307,
+      "std": 0.0238,
+      "n": 150
+    },
+    "intermediate": {
+      "mean": 0.757,
+      "std": 0.0243,
+      "n": 150
+    },
+    "expert": {
+      "mean": 0.5608,
+      "std": 0.0399,
+      "n": 150
+    },
+    "overall": {
+      "mean": 0.6828,
+      "std": 0.0921,
+      "n": 450
+    }
+  },
+  "specialist_intermediate": {
+    "beginner": {
+      "mean": 0.7145,
+      "std": 0.0237,
+      "n": 150
+    },
+    "intermediate": {
+      "mean": 0.7747,
+      "std": 0.0508,
+      "n": 150
+    },
+    "expert": {
+      "mean": 0.6829,
+      "std": 0.0149,
+      "n": 150
+    },
+    "overall": {
+      "mean": 0.724,
+      "std": 0.0507,
+      "n": 450
+    }
+  },
+  "specialist_expert": {
+    "beginner": {
+      "mean": 0.6872,
+      "std": 0.0263,
+      "n": 150
+    },
+    "intermediate": {
+      "mean": 0.6349,
+      "std": 0.0429,
+      "n": 150
+    },
+    "expert": {
+      "mean": 0.7404,
+      "std": 0.0294,
+      "n": 150
+    },
+    "overall": {
+      "mean": 0.6875,
+      "std": 0.0546,
+      "n": 450
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "multilevel": {
+    "multilevel_s123": {
+      "beginner": 0.7312,
+      "intermediate": 0.7908,
+      "expert": 0.8027
+    },
+    "multilevel_s42": {
+      "beginner": 0.7292,
+      "intermediate": 0.7871,
+      "expert": 0.8049
+    },
+    "multilevel_s456": {
+      "beginner": 0.7302,
+      "intermediate": 0.7972,
+      "expert": 0.8049
+    }
+  },
+  "specialist_beginner": {
+    "specialist_beginner_s123": {
+      "beginner": 0.7303,
+      "intermediate": 0.7574,
+      "expert": 0.5581
+    },
+    "specialist_beginner_s42": {
+      "beginner": 0.7295,
+      "intermediate": 0.757,
+      "expert": 0.5575
+    },
+    "specialist_beginner_s456": {
+      "beginner": 0.7322,
+      "intermediate": 0.7565,
+      "expert": 0.5669
+    }
+  },
+  "specialist_intermediate": {
+    "specialist_intermediate_s123": {
+      "beginner": 0.7156,
+      "intermediate": 0.7857,
+      "expert": 0.683
+    },
+    "specialist_intermediate_s42": {
+      "beginner": 0.7151,
+      "intermediate": 0.7568,
+      "expert": 0.6813
+    },
+    "specialist_intermediate_s456": {
+      "beginner": 0.7127,
+      "intermediate": 0.7816,
+      "expert": 0.6843
+    }
+  },
+  "specialist_expert": {
+    "specialist_expert_s123": {
+      "beginner": 0.6859,
+      "intermediate": 0.64,
+      "expert": 0.7308
+    },
+    "specialist_expert_s42": {
+      "beginner": 0.6874,
+      "intermediate": 0.6389,
+      "expert": 0.747
+    },
+    "specialist_expert_s456": {
+      "beginner": 0.6884,
+      "intermediate": 0.6258,
+      "expert": 0.7435
+    }
+  }
+}
