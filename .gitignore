@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+_*.txt
+results/_*.txt
+results/_*.json
+results/*_out.txt
+results/paper_extract*.txt
+results/paper_p87_probe.txt
+results/seed_bs_probe.txt

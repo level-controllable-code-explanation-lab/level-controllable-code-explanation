@@ -4,7 +4,11 @@ Technical Density (TD) —— 唯一权威实现。
 
 背景：原代码库中存在 4 套词表（52/40/38/35 条）和 2 种计数算法
 （数所有出现次数 vs 每词最多计 1 次），导致不同脚本产出的 TD 不可比。
-本模块统一为：52 条词表 + 最长优先匹配 + 统计所有出现次数。
+
+本模块的论文报告口径是 CANONICAL_TERMS（47 条，经去除单字/残缺前缀误判后的
+定稿词表）。`td()` 默认使用 CANONICAL_TERMS——这是论文所有 TD 数字的计算口径。
+TECH_TERMS（52 条，原始、含单字与残缺前缀）只在 `td_raw52()` 中使用，用于
+量化误命中的敏感性分析，不是论文报告值。
 
 定义：
     TD(e) = 1000 * N(e) / L(e)
@@ -14,15 +18,20 @@ Technical Density (TD) —— 唯一权威实现。
 匹配规则：按词长降序遍历 V；对每个词用正则找出所有出现位置；
 若某位置已被更长的词覆盖则跳过（避免"复杂度"重复计入"时间复杂度"）。
 
-词表来源：evaluate_multilevel_v2.py（主评估脚本）中的 TECH_TERMS，原样照搬，未增删。
+词表来源：TECH_TERMS 52 条来自 evaluate_multilevel_v2.py（主评估脚本）中的
+TECH_TERMS，原样照搬，未增删；CANONICAL_TERMS 47 条是在此基础上剔除单字词和
+残缺前缀后的定稿词表（39 个中文 + 8 个英文/符号术语）。
 
-版本：v1.0-unified（2026-09）
+版本：v1.0-unified（2026-09），词表定稿版（2026-10，47-term canonical）
 """
 from __future__ import annotations
 import re
 
 TD_VERSION = "v1.0-unified"
-VOCAB_SOURCE = "evaluate_multilevel_v2.py::TECH_TERMS (52 entries, verbatim)"
+VOCAB_SOURCE = (
+    "TECH_TERMS: evaluate_multilevel_v2.py::TECH_TERMS (52 entries, verbatim, sensitivity-analysis only); "
+    "CANONICAL_TERMS: 47-term finalized vocabulary used by td() for all reported paper numbers"
+)
 
 TECH_TERMS: list[str] = [
     "时间复杂度", "空间复杂度", "动态规划", "数据结构", "位运算", "哈希表",
