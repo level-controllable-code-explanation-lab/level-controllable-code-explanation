@@ -82,5 +82,4 @@ for model in MODELS:
     for k, v in pairwise.items():
         print(f"  {k}: U={v['U']:.1f} p_raw={v['p_raw']:.4g} r={v['r']:.3f}")
 
-json.dump(results, open(r"C:\Users\86153\AppData\Local\Temp\p2_recompute_result.json", "w"), indent=2)
 print("\nDONE")
